@@ -1,0 +1,23 @@
+.label {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+  padding: 24px;
+  border-radius: 8px;
+  border: 1px solid;
+}
+
+.mediaTitle {
+  margin: 0 0 4px;
+  text-align: center;
+}
+
+.input {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 0;
+  display: none;
+}
