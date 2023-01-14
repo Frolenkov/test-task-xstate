@@ -1,4 +1,16 @@
-.label {
+.wrapper {
+  padding: 200px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+h1 {
+  margin-bottom: 50px;
+}
+
+.label,
+.stopButton {
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -7,6 +19,7 @@
   padding: 24px;
   border-radius: 8px;
   border: 1px solid;
+  height: 80px;
 }
 
 .mediaTitle {

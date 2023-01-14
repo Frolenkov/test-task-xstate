@@ -9,9 +9,11 @@ export interface IUploadResponse {
   message: string;
 }
 
-export interface IProgressEvent {
-  lengthComputable: any;
-  total: any;
-  target: { getResponseHeader: (arg0: string) => any };
-  loaded: number;
+export interface IFile {
+  lastModified: number;
+  lastModifiedDate: Date;
+  name: string;
+  size: number;
+  type: string;
+  webkitRelativePath: string;
 }
