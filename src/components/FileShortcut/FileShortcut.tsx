@@ -1,7 +1,9 @@
 import css from "./FileShortcut.module.css";
 import { IFile } from "../../models";
+import { memo } from "react";
 
 const FileShortcut = ({file}: {file: IFile}) => {
+    
 
     return (
         <div className={css.wrapper}>
@@ -10,4 +12,4 @@ const FileShortcut = ({file}: {file: IFile}) => {
     )
 }
 
-export default FileShortcut;
+export default memo(FileShortcut);
